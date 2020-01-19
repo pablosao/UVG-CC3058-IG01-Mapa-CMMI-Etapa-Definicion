@@ -73,8 +73,8 @@
 </node>
 <node TEXT="Requerimientos" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579462053428">
 <edge COLOR="#00ff00"/>
-<node TEXT="Requerimientos del cliente" FOLDED="true" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
-<node TEXT="Identificar las Necesidades" FOLDED="true" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579465334767"><richcontent TYPE="DETAILS">
+<node TEXT="Requerimientos del cliente" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
+<node TEXT="Identificar las Necesidades" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579465334767"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -157,7 +157,7 @@
 </html>
 
 </richcontent>
-<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579466105461"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579466105461"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -177,7 +177,7 @@
 
 </richcontent>
 </node>
-<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579466281091"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579466281091"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -218,9 +218,30 @@
 <node TEXT="Funci&#xf3;n de los Requisitos" ID="ID_546320865" CREATED="1579469714420" MODIFIED="1579469753955"/>
 <node TEXT="Facilitar la Producci&#xf3;n" ID="ID_572993698" CREATED="1579469760090" MODIFIED="1579469775815"/>
 </node>
-<node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579469621131"/>
+<node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579470264960">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc3300" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1899353590" STARTINCLINATION="355;0;" ENDINCLINATION="510;82;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Se da mientras progresa el Dise&#241;o
+      </li>
+      <li>
+        Soluciones alternativas descritas en la <b>Soluci&#243;n T&#233;cnica</b>.
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Analizar y validar los Requerimientos" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579458775678"/>
+</node>
+<node TEXT="Analizar y validar los Requerimientos" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579470057510"/>
 </node>
 <node TEXT="" POSITION="left" ID="ID_902655162" CREATED="1579464792901" MODIFIED="1579464851091">
 <edge COLOR="#0000ff"/>
@@ -229,11 +250,12 @@
 <node TEXT="Necesidades" ID="ID_441499802" CREATED="1579464792901" MODIFIED="1579464825433"/>
 <node TEXT="Expectativas" ID="ID_1386130093" CREATED="1579464795158" MODIFIED="1579464829944"/>
 <node TEXT="Restricciones" ID="ID_434333755" CREATED="1579464830382" MODIFIED="1579464855414"/>
+<node TEXT="Entregas" ID="ID_932959688" CREATED="1579469846482" MODIFIED="1579469849846"/>
 </node>
 <node TEXT="Gesti&#xf3;n de Riesgos" POSITION="right" ID="ID_1655530842" CREATED="1579449593556" MODIFIED="1579449755169">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="Soluci&#xf3;n T&#xe9;cnica" POSITION="left" ID="ID_1899353590" CREATED="1579449769104" MODIFIED="1579449777445">
+<node TEXT="Soluci&#xf3;n T&#xe9;cnica" POSITION="left" ID="ID_1899353590" CREATED="1579449769104" MODIFIED="1579470005134">
 <edge COLOR="#00ffff"/>
 </node>
 <node TEXT="Validaci&#xf3;n" POSITION="right" ID="ID_1297732119" CREATED="1579449789182" MODIFIED="1579449796789">
