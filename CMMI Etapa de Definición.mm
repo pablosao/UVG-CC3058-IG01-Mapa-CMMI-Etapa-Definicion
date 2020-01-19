@@ -74,7 +74,7 @@
 <node TEXT="Requerimientos" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579462053428">
 <edge COLOR="#00ff00"/>
 <node TEXT="Requerimientos del cliente" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
-<node TEXT="Identificar las Necesidades" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579465334767"><richcontent TYPE="DETAILS">
+<node TEXT="Identificar las Necesidades" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579470329522"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -83,17 +83,17 @@
   <body>
     <ul>
       <li>
-        No necesariamente dadas por el cliente
+        <font color="#003399">No necesariamente dadas por el cliente </font>
       </li>
       <li>
-        Tomar en cuenta el ciclo de vida del producto
+        <font color="#003399">Tomar en cuenta el ciclo de vida del producto</font>
       </li>
     </ul>
   </body>
 </html>
 
 </richcontent>
-<node TEXT="Transformar las Necesidades" ID="ID_1313541878" CREATED="1579462001008" MODIFIED="1579465325937"><richcontent TYPE="DETAILS">
+<node TEXT="Transformar las Necesidades" ID="ID_1313541878" CREATED="1579462001008" MODIFIED="1579470342313"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -102,10 +102,10 @@
   <body>
     <ul>
       <li>
-        Priorizar los requisitos.
+        <font color="#003399">Priorizar los requisitos. </font>
       </li>
       <li>
-        Documentar los requisitos.
+        <font color="#003399">Documentar los requisitos.</font>
       </li>
     </ul>
   </body>
@@ -115,7 +115,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Requerimientos del Producto" ID="ID_879586596" CREATED="1579458748338" MODIFIED="1579465425827"><richcontent TYPE="DETAILS">
+<node TEXT="Requerimientos del Producto" ID="ID_879586596" CREATED="1579458748338" MODIFIED="1579470403492"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -123,16 +123,16 @@
   </head>
   <body>
     <p>
-      Necesidades de cada fase del ciclo
+      <font color="#003399">Necesidades de cada fase del ciclo </font>
     </p>
     <p>
-      de negocio (modelo de negocio)
+      <font color="#003399">de negocio (modelo de negocio).</font>
     </p>
   </body>
 </html>
 
 </richcontent>
-<node TEXT="Establecer Requerimientos" ID="ID_830887256" CREATED="1579465892903" MODIFIED="1579466050093"><richcontent TYPE="DETAILS">
+<node TEXT="Establecer Requerimientos" ID="ID_830887256" CREATED="1579465892903" MODIFIED="1579470363350"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -140,24 +140,24 @@
   </head>
   <body>
     <p>
-      Satisfacci&#243;n de:
+      <font color="#003399">Satisfacci&#243;n de: </font>
     </p>
     <ul>
       <li>
-        Negocio.
+        <font color="#003399">Negocio. </font>
       </li>
       <li>
-        Objetivos
+        <font color="#003399">Objetivos </font>
       </li>
       <li>
-        Cliente.
+        <font color="#003399">Cliente.</font>
       </li>
     </ul>
   </body>
 </html>
 
 </richcontent>
-<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579466105461"><richcontent TYPE="DETAILS">
+<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579470352672"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -166,10 +166,10 @@
   <body>
     <ul>
       <li>
-        Requerimientos en terminos t&#233;cnicos.
+        <font color="#003399">Requerimientos en terminos t&#233;cnicos. </font>
       </li>
       <li>
-        Desiciones de dise&#241;o.
+        <font color="#003399">Desiciones de dise&#241;o.</font>
       </li>
     </ul>
   </body>
@@ -177,7 +177,7 @@
 
 </richcontent>
 </node>
-<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579466281091"><richcontent TYPE="DETAILS">
+<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579470375275"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -185,7 +185,7 @@
   </head>
   <body>
     <p>
-      Uso de tecnolog&#237;a especifica.
+      <font color="#003399">Uso de tecnolog&#237;a especifica.</font>
     </p>
   </body>
 </html>
@@ -193,7 +193,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Asignaci&#xf3;n de Requerimientos" ID="ID_325574686" CREATED="1579466771554" MODIFIED="1579469605444"><richcontent TYPE="DETAILS">
+<node TEXT="Asignaci&#xf3;n de Requerimientos" ID="ID_325574686" CREATED="1579466771554" MODIFIED="1579470388217"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -201,13 +201,13 @@
   </head>
   <body>
     <p>
-      Proporciona la base para asignar los
+      <font color="#003399">Proporciona la base para asignar los </font>
     </p>
     <p>
-      requisitos a cada componente del
+      <font color="#003399">requisitos a cada componente del </font>
     </p>
     <p>
-      producto
+      <font color="#003399">producto</font>
     </p>
   </body>
 </html>
@@ -218,7 +218,7 @@
 <node TEXT="Funci&#xf3;n de los Requisitos" ID="ID_546320865" CREATED="1579469714420" MODIFIED="1579469753955"/>
 <node TEXT="Facilitar la Producci&#xf3;n" ID="ID_572993698" CREATED="1579469760090" MODIFIED="1579469775815"/>
 </node>
-<node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579470264960">
+<node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579470417013">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc3300" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1899353590" STARTINCLINATION="355;0;" ENDINCLINATION="510;82;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
@@ -229,10 +229,10 @@
   <body>
     <ul>
       <li>
-        Se da mientras progresa el Dise&#241;o
+        <font color="#003399">Se da mientras progresa el Dise&#241;o </font>
       </li>
       <li>
-        Soluciones alternativas descritas en la <b>Soluci&#243;n T&#233;cnica</b>.
+        <font color="#003399">Soluciones alternativas descritas en la <b>Soluci&#243;n T&#233;cnica</b>.</font>
       </li>
     </ul>
   </body>
