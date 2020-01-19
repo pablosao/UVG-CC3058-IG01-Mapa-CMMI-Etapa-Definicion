@@ -71,10 +71,10 @@
 <edge COLOR="#00ff00"/>
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Requerimientos" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579462053428">
+<node TEXT="Requerimientos" FOLDED="true" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579462053428">
 <edge COLOR="#00ff00"/>
-<node TEXT="Requerimientos del cliente" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
-<node TEXT="Identificar las Necesidades" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579470329522"><richcontent TYPE="DETAILS">
+<node TEXT="Requerimientos del cliente" FOLDED="true" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
+<node TEXT="Identificar las Necesidades" FOLDED="true" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579470329522"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -93,7 +93,7 @@
 </html>
 
 </richcontent>
-<node TEXT="Transformar las Necesidades" ID="ID_1313541878" CREATED="1579462001008" MODIFIED="1579470342313"><richcontent TYPE="DETAILS">
+<node TEXT="Transformar las Necesidades" ID="ID_1313541878" CREATED="1579462001008" MODIFIED="1579470342313"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -115,7 +115,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Requerimientos del Producto" ID="ID_879586596" CREATED="1579458748338" MODIFIED="1579470403492"><richcontent TYPE="DETAILS">
+<node TEXT="Requerimientos del Producto" FOLDED="true" ID="ID_879586596" CREATED="1579458748338" MODIFIED="1579470403492"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -132,7 +132,7 @@
 </html>
 
 </richcontent>
-<node TEXT="Establecer Requerimientos" ID="ID_830887256" CREATED="1579465892903" MODIFIED="1579470363350"><richcontent TYPE="DETAILS">
+<node TEXT="Establecer Requerimientos" FOLDED="true" ID="ID_830887256" CREATED="1579465892903" MODIFIED="1579470363350"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -157,7 +157,7 @@
 </html>
 
 </richcontent>
-<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579470352672"><richcontent TYPE="DETAILS">
+<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579470352672"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -177,7 +177,7 @@
 
 </richcontent>
 </node>
-<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579470375275"><richcontent TYPE="DETAILS">
+<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579470375275"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -193,7 +193,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Asignaci&#xf3;n de Requerimientos" ID="ID_325574686" CREATED="1579466771554" MODIFIED="1579470388217"><richcontent TYPE="DETAILS">
+<node TEXT="Asignaci&#xf3;n de Requerimientos" FOLDED="true" ID="ID_325574686" CREATED="1579466771554" MODIFIED="1579470388217"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -220,7 +220,7 @@
 </node>
 <node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579477167850">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc3300" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1899353590" SOURCE_LABEL="Soluciones que se plantean" STARTINCLINATION="429;64;" ENDINCLINATION="655;161;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="DETAILS">
+<richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -241,8 +241,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Analizar y Valodar los Requerimientos" ID="ID_1442842051" CREATED="1579475589502" MODIFIED="1579475598652">
-<node TEXT="Establecer Conceptos y Esenarios" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579476500999"><richcontent TYPE="DETAILS">
+<node TEXT="Analizar y Valodar los Requerimientos" FOLDED="true" ID="ID_1442842051" CREATED="1579475589502" MODIFIED="1579475598652">
+<node TEXT="Establecer Conceptos y Esenarios" FOLDED="true" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579476500999"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -267,7 +267,7 @@
 <node TEXT="Capacitaci&#xf3;n y Retirada" ID="ID_90680818" CREATED="1579476289405" MODIFIED="1579476294630"/>
 <node TEXT="Casos de Uso" ID="ID_84253464" CREATED="1579476342180" MODIFIED="1579476811992">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#990099" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_316781762" SOURCE_LABEL="Se incluye" STARTINCLINATION="52;20;" ENDINCLINATION="183;150;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<richcontent TYPE="DETAILS">
+<richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -286,7 +286,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Funcionalidad y Atributos" ID="ID_1155496873" CREATED="1579475643917" MODIFIED="1579476928333"><richcontent TYPE="DETAILS">
+<node TEXT="Funcionalidad y Atributos" FOLDED="true" ID="ID_1155496873" CREATED="1579475643917" MODIFIED="1579476928333"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -312,7 +312,7 @@
 <node TEXT="Arquitectura" ID="ID_1792983273" CREATED="1579476621106" MODIFIED="1579476639235"/>
 <node TEXT="Diagramas de Actividad" ID="ID_316781762" CREATED="1579476645368" MODIFIED="1579476666815"/>
 </node>
-<node TEXT="Analizar Requisitos" ID="ID_1745819096" CREATED="1579475666250" MODIFIED="1579476974051"><richcontent TYPE="DETAILS">
+<node TEXT="Analizar Requisitos" ID="ID_1745819096" CREATED="1579475666250" MODIFIED="1579476974051"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -333,7 +333,7 @@
 <node TEXT="" ID="ID_1970478122" CREATED="1579477065041" MODIFIED="1579477065041">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Validar los Requisitos" ID="ID_1231150688" CREATED="1579475673999" MODIFIED="1579477062425"><richcontent TYPE="DETAILS">
+<node TEXT="Validar los Requisitos" ID="ID_1231150688" CREATED="1579475673999" MODIFIED="1579477062425"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
