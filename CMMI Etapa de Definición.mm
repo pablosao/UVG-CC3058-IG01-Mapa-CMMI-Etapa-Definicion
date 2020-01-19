@@ -73,8 +73,8 @@
 </node>
 <node TEXT="Requerimientos" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579462053428">
 <edge COLOR="#00ff00"/>
-<node TEXT="Requerimientos del cliente" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
-<node TEXT="Identificar las Necesidades" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579465334767"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Requerimientos del cliente" FOLDED="true" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
+<node TEXT="Identificar las Necesidades" FOLDED="true" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579465334767"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -115,7 +115,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Requerimientos del Producto" ID="ID_879586596" CREATED="1579458748338" MODIFIED="1579465425827"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Requerimientos del Producto" ID="ID_879586596" CREATED="1579458748338" MODIFIED="1579465425827"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -132,7 +132,7 @@
 </html>
 
 </richcontent>
-<node TEXT="Establecer Requerimientos" ID="ID_830887256" CREATED="1579465892903" MODIFIED="1579466050093"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Establecer Requerimientos" ID="ID_830887256" CREATED="1579465892903" MODIFIED="1579466050093"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -157,7 +157,7 @@
 </html>
 
 </richcontent>
-<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579466105461"><richcontent TYPE="DETAILS">
+<node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579466105461"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -177,7 +177,7 @@
 
 </richcontent>
 </node>
-<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579466281091"><richcontent TYPE="DETAILS">
+<node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579466281091"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -193,7 +193,32 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Asignaci&#xf3;n de Requerimientos" ID="ID_325574686" CREATED="1579466771554" MODIFIED="1579466783621"/>
+<node TEXT="Asignaci&#xf3;n de Requerimientos" ID="ID_325574686" CREATED="1579466771554" MODIFIED="1579469605444"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proporciona la base para asignar los
+    </p>
+    <p>
+      requisitos a cada componente del
+    </p>
+    <p>
+      producto
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Presentaci&#xf3;n del Producto" ID="ID_28275543" CREATED="1579469632545" MODIFIED="1579469691653"/>
+<node TEXT="Restricciones y Ajuste de Dise&#xf1;o" ID="ID_543002005" CREATED="1579469698074" MODIFIED="1579469710841"/>
+<node TEXT="Funci&#xf3;n de los Requisitos" ID="ID_546320865" CREATED="1579469714420" MODIFIED="1579469753955"/>
+<node TEXT="Facilitar la Producci&#xf3;n" ID="ID_572993698" CREATED="1579469760090" MODIFIED="1579469775815"/>
+</node>
+<node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579469621131"/>
 </node>
 <node TEXT="Analizar y validar los Requerimientos" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579458775678"/>
 </node>
