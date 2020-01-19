@@ -69,7 +69,28 @@
 </node>
 <node TEXT="Requerimientos" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579458799695">
 <edge COLOR="#00ff00"/>
-<node TEXT="Requerimientos del cliente" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579458785991"/>
+<node TEXT="Requerimientos del cliente" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579459583656">
+<node TEXT="Identificar las Necesidades" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579459662429"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        No necesariamente dadas por el cliente
+      </li>
+      <li>
+        Tomar en cuenta el ciclo de vida del producto
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="Requerimientos del Producto" ID="ID_879586596" CREATED="1579458748338" MODIFIED="1579458799679"/>
 <node TEXT="Analizar y validar los Requerimientos" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579458775678"/>
 </node>
