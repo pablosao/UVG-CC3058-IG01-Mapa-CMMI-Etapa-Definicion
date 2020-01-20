@@ -3,7 +3,7 @@
 <node TEXT="CMMI&#xa;Etapa de Definici&#xf3;n" FOLDED="false" ID="ID_1068061441" CREATED="1579449170803" MODIFIED="1579476144737" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -91,7 +91,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Transformar las Necesidades" ID="ID_1313541878" CREATED="1579462001008" MODIFIED="1579470342313"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -110,7 +109,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -130,7 +128,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Establecer Requerimientos" FOLDED="true" ID="ID_830887256" CREATED="1579465892903" MODIFIED="1579470363350"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -155,7 +152,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Producto" ID="ID_612346162" CREATED="1579465918512" MODIFIED="1579470352672"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -174,7 +170,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Componentes" ID="ID_1543025587" CREATED="1579465929572" MODIFIED="1579470375275"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -189,7 +184,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -211,7 +205,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Presentaci&#xf3;n del Producto" ID="ID_28275543" CREATED="1579469632545" MODIFIED="1579469691653"/>
 <node TEXT="Restricciones y Ajuste de Dise&#xf1;o" ID="ID_543002005" CREATED="1579469698074" MODIFIED="1579469710841"/>
@@ -237,7 +230,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -257,7 +249,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Forma de Operaci&#xf3;n" ID="ID_273922185" CREATED="1579476207910" MODIFIED="1579476223160"/>
 <node TEXT="Desarrollo" ID="ID_993577455" CREATED="1579476239928" MODIFIED="1579476264807"/>
@@ -265,7 +256,7 @@
 <node TEXT="Operaci&#xf3;n" ID="ID_643848154" CREATED="1579476274920" MODIFIED="1579476278440"/>
 <node TEXT="Mantenimiento y Soporte" ID="ID_1100723131" CREATED="1579476280935" MODIFIED="1579476285860"/>
 <node TEXT="Capacitaci&#xf3;n y Retirada" ID="ID_90680818" CREATED="1579476289405" MODIFIED="1579476294630"/>
-<node TEXT="Casos de Uso" ID="ID_84253464" CREATED="1579476342180" MODIFIED="1579476811992">
+<node TEXT="Casos de Uso" ID="ID_84253464" CREATED="1579476342180" MODIFIED="1579479235871">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#990099" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_316781762" SOURCE_LABEL="Se incluye" STARTINCLINATION="52;20;" ENDINCLINATION="183;150;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -282,7 +273,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -307,7 +297,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Arquitectura" ID="ID_1792983273" CREATED="1579476621106" MODIFIED="1579476639235"/>
 <node TEXT="Diagramas de Actividad" ID="ID_316781762" CREATED="1579476645368" MODIFIED="1579476666815"/>
@@ -327,7 +316,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_1970478122" CREATED="1579477065041" MODIFIED="1579477065041">
@@ -348,7 +336,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_843683858" CREATED="1579477065041" MODIFIED="1579477065041">
@@ -366,7 +353,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_332048494" CREATED="1579477071830" MODIFIED="1579477225673"><richcontent TYPE="NODE">
@@ -381,7 +367,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1405568505" CREATED="1579477078864" MODIFIED="1579477240530"><richcontent TYPE="NODE">
@@ -396,7 +381,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_565623391" CREATED="1579477092104" MODIFIED="1579477253131"><richcontent TYPE="NODE">
@@ -411,7 +395,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_961949062" CREATED="1579477102522" MODIFIED="1579477264475"><richcontent TYPE="NODE">
@@ -426,7 +409,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -448,7 +430,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1386130093" CREATED="1579464795158" MODIFIED="1579477280413"><richcontent TYPE="NODE">
@@ -463,7 +444,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_434333755" CREATED="1579464830382" MODIFIED="1579477286618"><richcontent TYPE="NODE">
@@ -478,7 +458,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_932959688" CREATED="1579469846482" MODIFIED="1579477292735"><richcontent TYPE="NODE">
@@ -493,7 +472,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
