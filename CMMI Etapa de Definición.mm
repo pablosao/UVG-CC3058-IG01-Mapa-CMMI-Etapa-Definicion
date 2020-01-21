@@ -1,9 +1,10 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="CMMI&#xa;Etapa de Definici&#xf3;n" FOLDED="false" ID="ID_1068061441" CREATED="1579449170803" MODIFIED="1579494950208" STYLE="oval">
+<attribute_registry SHOW_ATTRIBUTES="selected"/>
+<node TEXT="CMMI&#xa;Etapa de Definici&#xf3;n" FOLDED="false" ID="ID_1068061441" CREATED="1579449170803" MODIFIED="1579636143550" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="0.28">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,15 +64,177 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Integraci&#xf3;n del Producto" POSITION="right" ID="ID_1410241113" CREATED="1579449557523" MODIFIED="1579449571038">
+<hook NAME="AutomaticEdgeColor" COUNTER="31" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Integraci&#xf3;n del Producto" POSITION="right" ID="ID_1410241113" CREATED="1579449557523" MODIFIED="1579631715136" HGAP_QUANTITY="-141.24999537318956 pt" VSHIFT_QUANTITY="-149.99999552965178 pt">
 <edge COLOR="#0000ff"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Este proceso va mas all&#225; de&#160;&#160;unir componentes. Implica analisis, pruebas y cambios constantes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Preparaci&#xf3;n" FOLDED="true" ID="ID_158648996" CREATED="1579622318123" MODIFIED="1579626476111" HGAP_QUANTITY="16.999999910593036 pt" VSHIFT_QUANTITY="-151.4999954849483 pt">
+<node TEXT="Estabecer la estrategia" ID="ID_1881642520" CREATED="1579622396052" MODIFIED="1579622415301">
+<node TEXT="Hacer que el proyecto pueda trabajarse por secciones" ID="ID_1450634634" CREATED="1579624849533" MODIFIED="1579624877742"/>
+<node TEXT="Evaluar cada uno de las partes o componentes de manera paulatina" ID="ID_326902114" CREATED="1579624882116" MODIFIED="1579624910422"/>
+<node TEXT="Incluir pruebas y feedback" ID="ID_263650446" CREATED="1579624915418" MODIFIED="1579624934726"/>
+<node TEXT="Utilizar test, ambientes digitales, modelos y prototipos para evaluar el proceso" ID="ID_1348540908" CREATED="1579624944761" MODIFIED="1579624980281"/>
+</node>
+<node TEXT="Establecer el ambiente de integraci&#xf3;n" ID="ID_1132279862" CREATED="1579622399482" MODIFIED="1579625258435" HGAP_QUANTITY="61.24999859184031 pt" VSHIFT_QUANTITY="8.24999975413084 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Esto requiere evaluar las necesidades para desarrollar el producto, ya sea compra de material, prototipos o licencias de software
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Establecer los criterios y procedimientos" ID="ID_680863297" CREATED="1579622402532" MODIFIED="1579626476111" HGAP_QUANTITY="24.499999687075615 pt" VSHIFT_QUANTITY="-45.74999863654379 pt">
+<node TEXT="Hasta que nivel se har&#xe1;n pruebas de componentes" ID="ID_946254730" CREATED="1579625401133" MODIFIED="1579625477292"/>
+<node TEXT="Limites de costos/presupuesto por prueba o procedimiento" ID="ID_542732107" CREATED="1579625411390" MODIFIED="1579625510214"/>
+<node TEXT="Probabilidad de funcionalidad" ID="ID_1616613147" CREATED="1579625414469" MODIFIED="1579625738719"/>
+<node TEXT="Calidad vs. costo de proceso o componentes" ID="ID_1252484781" CREATED="1579625752958" MODIFIED="1579625788473"/>
+<node TEXT="Disponibilidad de trabajo y tiempo del equipo desarrollador" ID="ID_403035812" CREATED="1579625802460" MODIFIED="1579625820785"/>
+</node>
+</node>
+<node TEXT="Determinar la Compatibilidad" FOLDED="true" ID="ID_328103260" CREATED="1579622323102" MODIFIED="1579627944027" HGAP_QUANTITY="50.74999890476469 pt" VSHIFT_QUANTITY="-52.499998435378124 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Estar seguro que los elementos tanto fisicos como de software sean compatibles entre si
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Revisi&#xf3;n de las interfaces" ID="ID_55556815" CREATED="1579622585166" MODIFIED="1579627795512"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Estas deben ser tomadas en cuenta para poder generar algo usable y comprensible
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Revision de complementos" ID="ID_1360094236" CREATED="1579622616400" MODIFIED="1579628174780"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Entre los complementos pueden surgir otros factores como costo. Adem&#225;s de categorizarlos por fluidos, sonidos, electrico, climatico, etc.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Mecanicas: Partes moviles que impliquen centro de gravedad, vibraciones o requieran reparaci&#xf3;n." ID="ID_843975214" CREATED="1579627957130" MODIFIED="1579628172983" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-28.499999150633837 pt"/>
+<node TEXT="Electricas: Requieren de energ&#xed;a para su funcionamiento y para su comunicaci&#xf3;n con otros componentes" ID="ID_1932420184" CREATED="1579627979695" MODIFIED="1579628124584"/>
+<node TEXT="Mensaje: Audio, reconocimiento de voz o facial, controles, teclado, botones, etc." ID="ID_949322755" CREATED="1579627983321" MODIFIED="1579628174780" VSHIFT_QUANTITY="23.999999284744284 pt"/>
+</node>
+</node>
+<node TEXT="Uni&#xf3;n de Componentes y Entrega del Producto" FOLDED="true" ID="ID_1751244453" CREATED="1579622326762" MODIFIED="1579630592947"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proceso final donde se realiza la uni&#243;n de los componentes y se comprueba su funcionamiento previo a la entrega
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Disponibilidad de Productos" ID="ID_63503014" CREATED="1579622623902" MODIFIED="1579629893530" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="-31.499999061226873 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asegurarse que cada uno de los componentes que conformen los productos esten disponibles, que funcionen de la forma correcta y esten debidamente identificados con respecto a los lineamientos acordados
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Generar la documentacion correspondiente" ID="ID_1818833857" CREATED="1579629595298" MODIFIED="1579629614489"/>
+</node>
+<node TEXT="Uni&#xf3;n y ensamblaje" ID="ID_307178312" CREATED="1579622630372" MODIFIED="1579629897844" HGAP_QUANTITY="139.24999626725923 pt" VSHIFT_QUANTITY="-42.74999872595075 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Este proceso requiere de pruebas constantes para la pronta deteccion de problemas. Esto debe de ir en linea con los objetivos del producto y la estrategia establecida.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Evaluaci&#xf3;n del Producto Terminado y sus Componentes" ID="ID_342855285" CREATED="1579622634712" MODIFIED="1579630027473" HGAP_QUANTITY="34.249999396502986 pt" VSHIFT_QUANTITY="-42.74999872595075 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Este proceso requiere someter al producto terminado a una serie de pruebas de comportamiento y desarrollo en ciertos ambientes de acuerdo a estrategias planteadas. En este proceso se encontrar&#225;n las fallas comunes y los componentes problematicos.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Presentaci&#xf3;n final del producto o componentes" ID="ID_878724382" CREATED="1579622637438" MODIFIED="1579630222385" HGAP_QUANTITY="37.249999307096026 pt" VSHIFT_QUANTITY="-3.749999888241291 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      La presentaci&#243;n del prpducto requiere de una buena imagen, sus especificaciones, documentaci&#243;n adecuada. En algunos casos este debe incluir un manual de instrucciones
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Costos: Dentro de este se debe tomar en cuenta el transporte, empaquetar el producto, distribuidores y el costo de producci&#xf3;n contra el precio al publico" ID="ID_1902720704" CREATED="1579630148786" MODIFIED="1579630199668"/>
+</node>
+</node>
 </node>
 <node TEXT="" POSITION="left" ID="ID_1102346164" CREATED="1579464792901" MODIFIED="1579464792901">
 <edge COLOR="#00ff00"/>
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Requerimientos" FOLDED="true" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579462053428">
+<node TEXT="Requerimientos" POSITION="left" ID="ID_1541562144" CREATED="1579449574554" MODIFIED="1579636143550" HGAP_QUANTITY="24.499999687075622 pt" VSHIFT_QUANTITY="-105.7499968484045 pt">
 <edge COLOR="#00ff00"/>
 <node TEXT="Requerimientos del cliente" ID="ID_863495538" CREATED="1579458730227" MODIFIED="1579465334767">
 <node TEXT="Identificar las Necesidades" ID="ID_1352571100" CREATED="1579459559968" MODIFIED="1579470329522"><richcontent TYPE="DETAILS">
@@ -211,8 +374,8 @@
 <node TEXT="Funci&#xf3;n de los Requisitos" ID="ID_546320865" CREATED="1579469714420" MODIFIED="1579469753955"/>
 <node TEXT="Facilitar la Producci&#xf3;n" ID="ID_572993698" CREATED="1579469760090" MODIFIED="1579469775815"/>
 </node>
-<node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579477167850">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc3300" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1899353590" SOURCE_LABEL="Soluciones que se plantean" STARTINCLINATION="429;64;" ENDINCLINATION="655;161;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="Identificar los Requerimientos de Interfaz" ID="ID_898190017" CREATED="1579468629064" MODIFIED="1579633488866">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#cc3300" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1899353590" SOURCE_LABEL="Soluciones que se plantean" STARTINCLINATION="767;0;" ENDINCLINATION="1060;33;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -234,7 +397,7 @@
 </node>
 </node>
 <node TEXT="Analizar y Valodar los Requerimientos" ID="ID_1442842051" CREATED="1579475589502" MODIFIED="1579475598652">
-<node TEXT="Establecer Conceptos y Esenarios" FOLDED="true" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579476500999"><richcontent TYPE="DETAILS">
+<node TEXT="Establecer Conceptos y Esenarios" ID="ID_1000504692" CREATED="1579458759698" MODIFIED="1579476500999"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -475,29 +638,372 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Gesti&#xf3;n de Riesgos" POSITION="right" ID="ID_1655530842" CREATED="1579449593556" MODIFIED="1579449755169">
+<node TEXT="Gesti&#xf3;n de Riesgos" POSITION="right" ID="ID_1655530842" CREATED="1579449593556" MODIFIED="1579633179015" HGAP_QUANTITY="32.74999944120646 pt" VSHIFT_QUANTITY="-133.49999602139007 pt" TEXT_ALIGN="CENTER">
 <edge COLOR="#ff00ff"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Identificar posibles problemas antes de que ocurran
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Prep&#xe1;rese para la gesti&#xf3;n de riesgos" ID="ID_429547229" CREATED="1579631626171" MODIFIED="1579632621377" HGAP_QUANTITY="49.249998949468164 pt" VSHIFT_QUANTITY="-41.24999877065426 pt" TEXT_ALIGN="CENTER"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoListParagraph" style="margin-left: 1.0in; text-indent: -.25in">
+      <span lang="ES-GT">Prep&#225;rese para la gesti&#243;n de riesgos estableciendo y manteniendo una estrategia para identificar, analizar y mitigar riesgos</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Determinar las fuentes y categor&#xed;as de riesgo" ID="ID_345949369" CREATED="1579631646509" MODIFIED="1579632260965" HGAP_QUANTITY="30.499999508261695 pt" VSHIFT_QUANTITY="-24.749999262392542 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Brinda una base para examinar situaciones cambiantes a lo largo del tiempo para descubrir circunstancias que afectan al proyecto </font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Soluci&#xf3;n T&#xe9;cnica" POSITION="left" ID="ID_1899353590" CREATED="1579449769104" MODIFIED="1579476144736">
+<node TEXT="Definir par&#xe1;metros de riesgo" ID="ID_93220020" CREATED="1579631965834" MODIFIED="1579632320807" HGAP_QUANTITY="34.999999374151244 pt" VSHIFT_QUANTITY="-17.999999463558193 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Brindar criterios comunes y consistentes para comparar los riesgos a gestionar</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Establecer una estrategia de gesti&#xf3;n de riesgos" ID="ID_571166392" CREATED="1579632085220" MODIFIED="1579632323954" HGAP_QUANTITY="38.74999926239254 pt" VSHIFT_QUANTITY="0.7499999776482724 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Visi&#243;n com&#250;n de &#233;xito que describa los resultados futuros deseados del proyecto en t&#233;rminos del producto entregado</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Identificar y analizar riesgos" ID="ID_182345484" CREATED="1579632337053" MODIFIED="1579633173756" HGAP_QUANTITY="54.49999879300598 pt" VSHIFT_QUANTITY="14.249999575316917 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <span lang="ES-GT">El grado de riesgo afecta los recursos asignados para manejar el riesgo y el momento en que se requiere la atenci&#243;n administrativa adecuada</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Identificar riesgos" ID="ID_535585496" CREATED="1579632717981" MODIFIED="1579632799199" HGAP_QUANTITY="37.999999284744284 pt" VSHIFT_QUANTITY="-44.24999868124727 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Identificaci&#243;n de posibles problemas, riesgos, amenazas y vulnerabilidades que podr&#237;an afectar negativamente</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Evaluar, categorizar y priorizar riesgos" ID="ID_400706233" CREATED="1579632803411" MODIFIED="1579632844735" HGAP_QUANTITY="37.249999307096026 pt" VSHIFT_QUANTITY="-7.499999776482589 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Asignar una importancia relativa a cada riesgo identificado</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Mitigar riesgos" ID="ID_1859749030" CREATED="1579632982379" MODIFIED="1579633179014" HGAP_QUANTITY="51.49999888241294 pt" VSHIFT_QUANTITY="41.999998748302495 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Desarrollo de opciones de manejo de riesgos, el monitoreo de riesgos y la realizaci&#243;n de actividades de manejo de riesgos </font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Desarrollar planes de mitigaci&#xf3;n de riesgos" ID="ID_1662305193" CREATED="1579632990633" MODIFIED="1579633164237" HGAP_QUANTITY="12.50000004470348 pt" VSHIFT_QUANTITY="-17.249999485909953 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Desarrollo de cursos de acci&#243;n alternativos, soluciones alternativas y posiciones alternativas, y un curso de acci&#243;n recomendado para cada riesgo cr&#237;tico</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Implementar planes de mitigaci&#xf3;n de riesgos" ID="ID_1986389078" CREATED="1579633113331" MODIFIED="1579633154720"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Monitorear regularmente los riesgos y el estado y los resultados de las acciones de manejo de riesgos</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Soluci&#xf3;n T&#xe9;cnica" POSITION="left" ID="ID_1899353590" CREATED="1579449769104" MODIFIED="1579636425039" HGAP_QUANTITY="9.500000134110447 pt" VSHIFT_QUANTITY="23.249999307096026 pt">
 <edge COLOR="#00ffff"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Dise&#241;ar e implementar soluciones a los requisitos</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Seleccione soluciones de componentes de productos" ID="ID_1658830543" CREATED="1579633460366" MODIFIED="1579634036086" HGAP_QUANTITY="19.24999984353781 pt" VSHIFT_QUANTITY="58.49999825656419 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Se establecen requisitos clave, problemas de dise&#241;o y restricciones para su uso en el an&#225;lisis de soluciones alternativas</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Desarrollar soluciones alternativas y criterios de selecci&#xf3;n" ID="ID_1369349053" CREATED="1579633844474" MODIFIED="1579634031802" HGAP_QUANTITY="42.49999915063384 pt" VSHIFT_QUANTITY="3.552713678800501E-15 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Identificar y analizar soluciones alternativas para permitir la selecci&#243;n de una soluci&#243;n equilibrada</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Validaci&#xf3;n" FOLDED="true" POSITION="right" ID="ID_1297732119" CREATED="1579449789182" MODIFIED="1579497508834" HGAP_QUANTITY="11.750000067055224 pt" TEXT_SHORTENED="true">
+<node TEXT="Seleccione soluciones de componentes de productos" ID="ID_1357168441" CREATED="1579633918844" MODIFIED="1579634036085" HGAP_QUANTITY="40.24999921768906 pt" VSHIFT_QUANTITY="0.0 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Selecci&#243;n de los componentes del producto que mejor satisfacen los criterios establece las asignaciones de requisitos a los componentes del producto</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Desarrollar el dise&#xf1;o" ID="ID_8076950" CREATED="1579634127701" MODIFIED="1579634695399" HGAP_QUANTITY="19.24999984353781 pt" VSHIFT_QUANTITY="43.49999870359901 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Los dise&#241;os de los componentes del producto deben proporcionar el contenido apropiado no solo para la implementaci&#243;n, sino tambi&#233;n para otras fases del ciclo de vida del producto</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Dise&#xf1;ar el producto o componente del producto" ID="ID_1406560430" CREATED="1579634202709" MODIFIED="1579634422864" HGAP_QUANTITY="46.24999903887513 pt" VSHIFT_QUANTITY="-20.999999374151248 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Consta de dos fases amplias que pueden superponerse en la ejecuci&#243;n: dise&#241;o preliminar y detallado</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Establecer un paquete de datos t&#xe9;cnicos" ID="ID_1866567649" CREATED="1579634464522" MODIFIED="1579634522675" HGAP_QUANTITY="47.74999899417165 pt" VSHIFT_QUANTITY="-28.499999150633837 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Proporciona al desarrollador una descripci&#243;n completa del producto o componente del producto a medida que se desarrolla</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Dise&#xf1;o de interfaces utilizando criterios" ID="ID_707538203" CREATED="1579634515677" MODIFIED="1579634574703" HGAP_QUANTITY="43.99999910593036 pt" VSHIFT_QUANTITY="-11.249999664723884 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Reflejan par&#225;metros cr&#237;ticos que deben definirse, o al menos investigarse, para determinar su aplicabilidad</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Realizar an&#xe1;lisis de hacer, comprar o reutilizar" ID="ID_1598812857" CREATED="1579634569467" MODIFIED="1579634695399" HGAP_QUANTITY="42.49999915063383 pt" VSHIFT_QUANTITY="-1.4999999552965182 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Un an&#225;lisis de las necesidades del proyecto. </font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Implementar el dise&#xf1;o del producto" ID="ID_1183114820" CREATED="1579636420365" MODIFIED="1579636660675" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="51.74999845772986 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Dise&#241;os establecidos por las pr&#225;cticas espec&#237;ficas en el objetivo espec&#237;fico Desarrollar el dise&#241;o</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Implementar el dise&#xf1;o" ID="ID_1019659336" CREATED="1579636506003" MODIFIED="1579636656827" HGAP_QUANTITY="31.249999485909953 pt" VSHIFT_QUANTITY="-6.749999798834327 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Esta actividad incluye la asignaci&#243;n, el refinamiento y la verificaci&#243;n de cada componente del producto</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Desarrollar documentaci&#xf3;n de soporte del producto" ID="ID_470564778" CREATED="1579636625837" MODIFIED="1579636660674" HGAP_QUANTITY="27.499999597668662 pt" VSHIFT_QUANTITY="17.249999485909953 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span lang="ES-GT" style="font-size: 11.0pt; line-height: 107%; font-family: Calibri,sans-serif"><font size="11.0pt" face="Calibri,sans-serif">Esta pr&#225;ctica espec&#237;fica desarrolla y mantiene la documentaci&#243;n que se utilizar&#225; para instalar, operar y mantener el producto</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Validaci&#xf3;n" POSITION="right" ID="ID_1297732119" CREATED="1579449789182" MODIFIED="1579621760589" HGAP_QUANTITY="11.750000067055224 pt" TEXT_SHORTENED="true">
 <edge COLOR="#7c0000"/>
-<node TEXT="Preparaci&#xf3;n" FOLDED="true" ID="ID_1099947546" CREATED="1579449789182" MODIFIED="1579497507456" HGAP_QUANTITY="39.49999924004079 pt" VSHIFT_QUANTITY="43.49999870359902 pt">
-<node TEXT="Selecci&#xf3;n" FOLDED="true" ID="ID_1604606650" CREATED="1579449789182" MODIFIED="1579492655618" HGAP_QUANTITY="28.249999575316913 pt" VSHIFT_QUANTITY="-12.7499996200204 pt">
+<node TEXT="Preparaci&#xf3;n" ID="ID_1099947546" CREATED="1579449789182" MODIFIED="1579497507456" HGAP_QUANTITY="39.49999924004079 pt" VSHIFT_QUANTITY="43.49999870359902 pt">
+<node TEXT="Selecci&#xf3;n" ID="ID_1604606650" CREATED="1579449789182" MODIFIED="1579492655618" HGAP_QUANTITY="28.249999575316913 pt" VSHIFT_QUANTITY="-12.7499996200204 pt">
 <node TEXT="Productos" FOLDED="true" ID="ID_1647608884" CREATED="1579449789182" MODIFIED="1579492778683" HGAP_QUANTITY="19.249999843537807 pt" VSHIFT_QUANTITY="-32.99999901652339 pt">
 <node TEXT="Interfaces" ID="ID_1011486115" CREATED="1579449789182" MODIFIED="1579492629734" HGAP_QUANTITY="19.249999843537807 pt" VSHIFT_QUANTITY="-32.99999901652339 pt"/>
 <node TEXT="Manuales" ID="ID_1535298719" CREATED="1579449789182" MODIFIED="1579492770439" HGAP_QUANTITY="37.99999928474428 pt" VSHIFT_QUANTITY="-10.499999687075626 pt"/>
 <node TEXT="Protocolos" ID="ID_1632705033" CREATED="1579449789182" MODIFIED="1579492789211" HGAP_QUANTITY="31.999999463558208 pt" VSHIFT_QUANTITY="8.999999731779106 pt"/>
 </node>
-<node TEXT="Ambiente" FOLDED="true" ID="ID_271135436" CREATED="1579449789182" MODIFIED="1579492924021" HGAP_QUANTITY="36.49999932944776 pt" VSHIFT_QUANTITY="-3.7499998882412924 pt">
+<node TEXT="Ambiente" ID="ID_271135436" CREATED="1579449789182" MODIFIED="1579492924021" HGAP_QUANTITY="36.49999932944776 pt" VSHIFT_QUANTITY="-3.7499998882412924 pt">
 <node TEXT="Especificado" ID="ID_113062314" CREATED="1579449789182" MODIFIED="1579492874561" HGAP_QUANTITY="36.49999932944776 pt" VSHIFT_QUANTITY="-3.7499998882412924 pt"/>
 <node TEXT="Construido" ID="ID_475603612" CREATED="1579449789182" MODIFIED="1579492882703" HGAP_QUANTITY="36.49999932944776 pt" VSHIFT_QUANTITY="-3.7499998882412924 pt"/>
 <node TEXT="Dise&#xf1;ado" ID="ID_209841867" CREATED="1579449789182" MODIFIED="1579492924021" HGAP_QUANTITY="52.2499988600612 pt" VSHIFT_QUANTITY="6.749999798834331 pt"/>
 </node>
 </node>
-<node TEXT="Producto de Trabajo" FOLDED="true" ID="ID_609970737" CREATED="1579449789182" MODIFIED="1579492936569" HGAP_QUANTITY="25.24999966472388 pt" VSHIFT_QUANTITY="2.2499999329447746 pt">
-<node TEXT="Ejemplos" FOLDED="true" ID="ID_1094057843" CREATED="1579449789182" MODIFIED="1579493295275" HGAP_QUANTITY="30.49999950826169 pt" VSHIFT_QUANTITY="-17.249999485909957 pt">
+<node TEXT="Producto de Trabajo" ID="ID_609970737" CREATED="1579449789182" MODIFIED="1579492936569" HGAP_QUANTITY="25.24999966472388 pt" VSHIFT_QUANTITY="2.2499999329447746 pt">
+<node TEXT="Ejemplos" ID="ID_1094057843" CREATED="1579449789182" MODIFIED="1579493295275" HGAP_QUANTITY="30.49999950826169 pt" VSHIFT_QUANTITY="-17.249999485909957 pt">
 <node TEXT="Lista de productos" ID="ID_484884587" CREATED="1579449789182" MODIFIED="1579493191174" HGAP_QUANTITY="25.24999966472388 pt" VSHIFT_QUANTITY="2.2499999329447746 pt"/>
 <node TEXT="Restricciones" ID="ID_897872509" CREATED="1579449789182" MODIFIED="1579493267712" HGAP_QUANTITY="25.24999966472388 pt" VSHIFT_QUANTITY="2.2499999329447746 pt"/>
 <node TEXT="Requisitos" ID="ID_1692618666" CREATED="1579449789182" MODIFIED="1579493260776" HGAP_QUANTITY="25.24999966472388 pt" VSHIFT_QUANTITY="2.2499999329447746 pt"/>
@@ -508,12 +1014,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Subpr&#xe1;cticas" FOLDED="true" ID="ID_929368134" CREATED="1579449789182" MODIFIED="1579493306006" HGAP_QUANTITY="22.249999754130844 pt" VSHIFT_QUANTITY="25.4999992400408 pt">
+<node TEXT="Subpr&#xe1;cticas" ID="ID_929368134" CREATED="1579449789182" MODIFIED="1579493306006" HGAP_QUANTITY="22.249999754130844 pt" VSHIFT_QUANTITY="25.4999992400408 pt">
 <node TEXT="Identificar caracteristicas" ID="ID_1403827851" CREATED="1579449789182" MODIFIED="1579493421816" HGAP_QUANTITY="22.249999754130844 pt" VSHIFT_QUANTITY="25.4999992400408 pt"/>
 <node TEXT="Determinar categorias" ID="ID_1595311432" CREATED="1579449789182" MODIFIED="1579493472239" HGAP_QUANTITY="22.249999754130844 pt" VSHIFT_QUANTITY="25.4999992400408 pt"/>
 </node>
 </node>
-<node TEXT="Establecimiento de Entorno" FOLDED="true" ID="ID_1892240851" CREATED="1579449789182" MODIFIED="1579497508834" HGAP_QUANTITY="35.749999351799495 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
+<node TEXT="Establecimiento de Entorno" ID="ID_1892240851" CREATED="1579449789182" MODIFIED="1579497508834" HGAP_QUANTITY="35.749999351799495 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
 <node TEXT="Criterios" FOLDED="true" ID="ID_1619187616" CREATED="1579449789182" MODIFIED="1579493789716" HGAP_QUANTITY="103.2499973401428 pt" VSHIFT_QUANTITY="22.499999329447768 pt">
 <node TEXT="Nomas" ID="ID_663738181" CREATED="1579449789182" MODIFIED="1579493846873" HGAP_QUANTITY="103.2499973401428 pt" VSHIFT_QUANTITY="22.499999329447768 pt"/>
 <node TEXT="Aceptaci&#xf3;n del cliente" ID="ID_69430548" CREATED="1579449789182" MODIFIED="1579493882924" HGAP_QUANTITY="103.2499973401428 pt" VSHIFT_QUANTITY="22.499999329447768 pt"/>
@@ -539,8 +1045,8 @@
 <node TEXT="Evaluacion de dise&#xf1;o" ID="ID_1549849423" CREATED="1579449789182" MODIFIED="1579494161743" HGAP_QUANTITY="103.2499973401428 pt" VSHIFT_QUANTITY="22.499999329447768 pt"/>
 </node>
 </node>
-<node TEXT="Realizaci&#xf3;n" FOLDED="true" ID="ID_1528141331" CREATED="1579449789182" MODIFIED="1579497501074" HGAP_QUANTITY="28.24999957531692 pt" VSHIFT_QUANTITY="5.249999843537815 pt">
-<node TEXT="Productos de Trabajo" FOLDED="true" ID="ID_479752372" CREATED="1579494495335" MODIFIED="1579494531892">
+<node TEXT="Realizaci&#xf3;n" ID="ID_1528141331" CREATED="1579449789182" MODIFIED="1579497501074" HGAP_QUANTITY="28.24999957531692 pt" VSHIFT_QUANTITY="5.249999843537815 pt">
+<node TEXT="Productos de Trabajo" ID="ID_479752372" CREATED="1579494495335" MODIFIED="1579494531892">
 <node TEXT="Reportes" ID="ID_196877221" CREATED="1579494495335" MODIFIED="1579494587453"/>
 <node TEXT="Resultados" ID="ID_29046261" CREATED="1579494495335" MODIFIED="1579494601454"/>
 <node TEXT="Demostraciones Operacionales" ID="ID_312251650" CREATED="1579494495335" MODIFIED="1579494618732"/>
@@ -548,7 +1054,7 @@
 <node TEXT="Registro de procedimientos en ejecucion" ID="ID_6745405" CREATED="1579494495335" MODIFIED="1579494645430"/>
 </node>
 </node>
-<node TEXT="An&#xe1;lisis" FOLDED="true" ID="ID_422242622" CREATED="1579449789182" MODIFIED="1579497497057" HGAP_QUANTITY="21.499999776482596 pt" VSHIFT_QUANTITY="-17.249999485909953 pt">
+<node TEXT="An&#xe1;lisis" ID="ID_422242622" CREATED="1579449789182" MODIFIED="1579497497057" HGAP_QUANTITY="21.499999776482596 pt" VSHIFT_QUANTITY="-17.249999485909953 pt">
 <node TEXT="Productos de Trabajo" ID="ID_1512486099" CREATED="1579449789182" MODIFIED="1579494662297" HGAP_QUANTITY="97.99999749660499 pt" VSHIFT_QUANTITY="21.74999935179951 pt">
 <node TEXT="Informes de deficiencia" ID="ID_551196473" CREATED="1579494495335" MODIFIED="1579494703430"/>
 <node TEXT="Problemas de validacion" ID="ID_1894050010" CREATED="1579494495335" MODIFIED="1579494718544"/>
@@ -563,7 +1069,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Verificaci&#xf3;n" FOLDED="true" POSITION="left" ID="ID_238672627" CREATED="1579449804345" MODIFIED="1579497528412" HGAP_QUANTITY="8.750000156462189 pt" VSHIFT_QUANTITY="17.249999485909953 pt">
+<node TEXT="Verificaci&#xf3;n" POSITION="left" ID="ID_238672627" CREATED="1579449804345" MODIFIED="1579633299517" HGAP_QUANTITY="-191.49999387562292 pt" VSHIFT_QUANTITY="123.74999631196272 pt">
 <edge COLOR="#00007c"/>
 <node TEXT="Preparacion" FOLDED="true" ID="ID_1376804853" CREATED="1579449804345" MODIFIED="1579497524280" HGAP_QUANTITY="11.000000089406965 pt" VSHIFT_QUANTITY="43.49999870359902 pt">
 <node TEXT="Seleccion" ID="ID_1973060956" CREATED="1579449804345" MODIFIED="1579495305604" HGAP_QUANTITY="8.750000156462189 pt" VSHIFT_QUANTITY="17.249999485909953 pt">
